@@ -1,0 +1,20 @@
+module.exports = {
+  content: [
+    "./index.html",
+    "./components/*.{js,ts,jsx,tsx}", // Adjust if your TSX files are in a specific folder like 'src'
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: 'var(--primary-color, #619db6)',
+        secondary: 'var(--secondary-color, #10b981)',
+        accent: 'var(--accent-color, #ec4899)',
+        neutral: 'var(--neutral-color, #6b7280)',
+        'base-100': 'var(--base-100-color, #ffffff)',
+        'base-200': 'var(--base-200-color, #f3f4f6)',
+        'base-300': 'var(--base-300-color, #e5e7eb)',
+      },
+    },
+  },
+  plugins: [],
+}
