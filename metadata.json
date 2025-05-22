@@ -1,0 +1,5 @@
+{
+  "name": "Job Application Tracker",
+  "description": "A web application to track job applications, company information, and recruiter interactions. Manage companies, applications, and references with CRUD functionality.",
+  "requestFramePermissions": []
+}
