@@ -1,7 +1,8 @@
 module.exports = {
   content: [
     "./index.html",
-    "./components/*.{js,ts,jsx,tsx}", // Adjust if your TSX files are in a specific folder like 'src'
+    "./components/*.{js,ts,jsx,tsx}",
+    "./*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
