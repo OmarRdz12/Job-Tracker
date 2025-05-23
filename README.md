@@ -9,7 +9,7 @@ We, the job seekers, also need a management system to track recruiters.
 ![Job Application Tracker Dashboard (Illustrative)](./docs/images/preview.png)
 *Preview of the dashboard*
 
-## View the deployed version [here](https://job-tracker-zeta-seven.vercel.app)
+## View the deployed version [here](https://job-tracker-by-blankscreenexe.vercel.app/)
 
 ## ✨ Features
 
