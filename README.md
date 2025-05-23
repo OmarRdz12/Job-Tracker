@@ -6,8 +6,8 @@ If recruiters need a candidate management system to track potential candidates .
 
 We, the job seekers, also need a management system to track recruiters.
 
-![Job Application Tracker Dashboard (Illustrative)](https://picsum.photos/seed/jobtrackerapp/800/400)
-*(Replace with an actual screenshot of your application's dashboard)*
+![Job Application Tracker Dashboard (Illustrative)](./docs/images/preview.png)
+*Preview of the dashboard*
 
 ## View the deployed version [here](https://job-tracker-zeta-seven.vercel.app)
 
