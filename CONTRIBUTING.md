@@ -25,8 +25,8 @@ We welcome contributions in various forms:
 
 2.  **Clone your fork (or the main repository if working directly):**
     ```bash
-    git clone https://your-fork-url/job-application-tracker.git
-    cd job-application-tracker
+    git clone https://your-fork-url/Job-Tracker.git
+    cd Job-Tracker
     ```
 
 3.  **Create a New Branch:**
