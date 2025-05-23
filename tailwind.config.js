@@ -1,13 +1,15 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./index.html",
-    "./components/*.{js,ts,jsx,tsx}",
-    "./*.{js,ts,jsx,tsx}",
+    "./App.tsx",
+    "./index.tsx",
+    "./components/**/*.tsx",
   ],
   theme: {
     extend: {
       colors: {
-        primary: 'var(--primary-color, #619db6)',
+        primary: 'var(--primary-color, #4f46e5)',
         secondary: 'var(--secondary-color, #10b981)',
         accent: 'var(--accent-color, #ec4899)',
         neutral: 'var(--neutral-color, #6b7280)',
@@ -18,4 +20,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
