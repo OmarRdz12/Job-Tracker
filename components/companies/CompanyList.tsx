@@ -16,7 +16,7 @@ interface CompanyListProps {
 const CompanyList: React.FC<CompanyListProps> = ({ companies, onEdit, onDelete, onAdd }) => {
   return (
     <div className="container mx-auto p-4 sm:p-6 lg:p-8">
-      <div className="flex justify-between items-center mb-8">
+      <div className="flex flex-col md:flex-row gap-4 justify-between items-center mb-8">
         <h1 className="text-3xl font-bold text-gray-800">Companies</h1>
         <Button onClick={onAdd} leftIcon={<PlusIcon />}>
           Add Company
