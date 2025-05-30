@@ -309,7 +309,7 @@ const App: React.FC = () => {
   
   const renderDashboard = () => (
     <div className="container mx-auto p-8 text-center">
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex flex-col justify-between items-center mb-6">
         <h1 className="text-4xl font-bold text-primary mb-6">Welcome to {SITE_TITLE}!</h1>
         <Button 
               onClick={() => setIsImportExportModalOpen(true)}
@@ -343,7 +343,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-base-200">
       <Navbar />
-      <main className="flex-grow">
+      <main className="flex-grow pt-16">
         <Routes>
           <Route path="/" element={renderDashboard()} />
           <Route path="/companies" element={
